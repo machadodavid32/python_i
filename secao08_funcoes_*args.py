@@ -118,7 +118,6 @@ print(soma_todos_numeros(numeros, 4, 5, 6))
 
 
 """
-
 #Mas como resolver o problema acima? Usando o desempacotador
 
 
