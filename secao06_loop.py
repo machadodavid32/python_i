@@ -55,7 +55,7 @@ qtd = int(input("Quantas vezes este loop deve rodar? "))
 for n in range(1, qtd+1):
     print(f'Imprimindo {n}') """
 
-#para incrementar o valor acima, podemos fazer o seguinte
+# para incrementar o valor acima, podemos fazer o seguinte
 """
 qtd = int(input("Quantas vezes este loop deve rodar? "))
 soma = 0
@@ -67,7 +67,7 @@ print(f'a soma é {soma}') """
 
 nome = 'Geek University'
 for letra in nome:
-    print(letra, end=' ') #por padrão, no python sempre vai pular linha. Com o comando 'end', vai na mesma linha
+    print(letra, end=' ') # por padrão, no python sempre vai pular linha. Com o comando 'end', vai na mesma linha
 
 
 """https://apps.timwhitlock.info/emoji/tables/unicode

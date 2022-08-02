@@ -82,7 +82,21 @@ with open('lutadores.csv') as arquivo:
 # Blanka nasceu no(a)(s) Brasil e mede 192
 # Zangief nasceu no(a)(s) Rússia e mede 214
 
+
+
+
+
 """
+from csv import DictReader
+
+
+with open('lutadores.csv') as arquivo:
+    leitor_csv = DictReader(arquivo)
+    for linha in leitor_csv:
+        # Para cada linha é um orderdict
+        print(f"{linha['Nome']} nasceu no(a)(s) {linha['País']} e mede {linha['Altura (em cm)']} ")
+
+
 
 # Com outro separador
 from csv import DictReader
@@ -92,3 +106,4 @@ with open('lutadores.csv') as arquivo:
     for linha in leitor_csv:
         # Para cada linha é um orderdict
         print(f"{linha['Nome']} nasceu no(a)(s) {linha['País']} e mede {linha['Altura (em cm)']} ")
+
